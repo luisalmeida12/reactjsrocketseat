@@ -22,7 +22,7 @@ export default class Product extends Component {
         return (
             <div className="product-info">
                 <h1>{product.title}</h1>
-                <p>{}product.description</p>
+                <p>{product.description}</p>
 
                 <p>
                     URL: <a href={product.url}>{product.url}</a>
